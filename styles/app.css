@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    width: 100%;
 }
 header{
     position: sticky;
@@ -7,9 +8,15 @@ header{
         z-index: 999;
 }
 body{
+    
     margin: 0;
     padding: 0;
+    width: 100%;
     font-family: Roboto, Arial, sans-serif;
+    
+}
+#container{
+    width: 100%;
 }
 #card1 {
 
@@ -81,7 +88,43 @@ option{
     top: -10px;
     
 }
+.p-card{
+    display: inline;
+}
 
 .statistic{
-    color: #D9F6F6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #DAF7F6;
+    
+}
+
+#card4{
+    width: 248.75px;
+    height: 270px;
+    
+}
+
+#a-btn{
+        isplay: inline-block;
+        vertical-align: middle;
+        position: relative;
+        outline: 0;
+        border: 0;
+        border-radius: 4px;
+        padding: 1.1666666667em 1.5em;
+        background: #3d83df;
+        font-family: Roboto, Arial, sans-serif;
+        line-height: 1em;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        font-size: 0.75rem;
+        text-align: center;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        transition: all 0.2s ease 0s;
+        width: 210.41px;
+        height: 40px;
 }
