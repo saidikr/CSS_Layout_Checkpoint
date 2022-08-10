@@ -91,7 +91,10 @@ option{
 .p-card{
     display: inline;
 }
-
+div .card:hover{
+        cursor: pointer;
+        box-shadow: 0px 5px 20px #b6abab;
+}
 .statistic{
     margin: 0;
     padding: 0;
@@ -107,7 +110,7 @@ option{
 }
 
 #a-btn{
-        isplay: inline-block;
+        display: inline-block;
         vertical-align: middle;
         position: relative;
         outline: 0;
@@ -125,6 +128,12 @@ option{
         text-decoration: none !important;
         text-transform: uppercase;
         transition: all 0.2s ease 0s;
-        width: 210.41px;
+        width: 240px;
         height: 40px;
+        margin: 25px 0;
+        margin-left: 40%;       
+}
+
+.main-footer a{
+    text-decoration: none;
 }
